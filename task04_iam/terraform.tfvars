@@ -1,0 +1,7 @@
+aws_region                = "eu-west-1"
+iam_group_name            = "FILL_IN_FROM_TASK"
+iam_policy_name           = "FILL_IN_FROM_TASK"
+iam_role_name             = "FILL_IN_FROM_TASK"
+iam_instance_profile_name = "FILL_IN_FROM_TASK"
+bucket_name               = "FILL_IN_FROM_TASK"
+project_tag               = "cmtr-0g1jc0vy"
