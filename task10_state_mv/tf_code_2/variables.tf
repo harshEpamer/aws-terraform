@@ -9,16 +9,11 @@ variable "project_id" {
 }
 
 variable "policy_name" {
-  description = "Name of the IAM policy moved between Terraform states"
+  description = "Name of the IAM policy being managed"
   type        = string
 }
 
 variable "policy_description" {
   description = "Description of the IAM policy"
-  type        = string
-}
-
-variable "policy_document" {
-  description = "JSON policy document for the IAM policy"
   type        = string
 }
