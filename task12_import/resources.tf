@@ -1,8 +1,3 @@
-import {
-  to = aws_iam_policy.main
-  id = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:policy/${var.policy_name}"
-}
-
 resource "aws_iam_policy" "main" {
   name        = var.policy_name
   path        = "/"
