@@ -1,0 +1,11 @@
+aws_region          = "eu-west-1"
+project_id          = "cmtr-0g1jc0vy"
+vpc_name            = "cmtr-0g1jc0vy-vpc"
+public_subnet1_name = "cmtr-0g1jc0vy-public-subnet1"
+public_subnet2_name = "cmtr-0g1jc0vy-public-subnet2"
+sg_ssh_name         = "cmtr-0g1jc0vy-sg-ssh"
+sg_http_name        = "cmtr-0g1jc0vy-sg-http"
+sg_lb_name          = "cmtr-0g1jc0vy-sg-lb"
+instance_type       = "t3.micro"
+blue_weight         = 100
+green_weight        = 0
